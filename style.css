@@ -7,7 +7,7 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 h2 {
   font-size: 20px;
@@ -77,20 +77,18 @@ section {
 }
 
 .one {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.one h1 {
-  font-size: 48px;
+  background-color: rgba(20, 20, 20, 0.8);
 }
 
+
 .two {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(20, 20, 20, 0.2);
 
   position:relative;
 }
 
 .three {
-  background-color: rgba(20, 20, 20, 0.8);
+  background-color: rgba(20, 20, 20, 0.7);
 }
 
 .four {
@@ -205,14 +203,23 @@ background-size: cover;
 background-position: center;
 }
 
-@medio only screen and (max-width:700px) {
+@media only screen and (max-device-width:700px) {
   h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
   h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
   p {
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .logo {
+    width: 300px;
+    cursor: pointer;
+  }
+
+  .navbar ul li {
+    font-size: 20px;
   }
 }
