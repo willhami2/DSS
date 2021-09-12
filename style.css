@@ -134,6 +134,7 @@ section {
 
 .four {
   background-color: rgba(20, 20, 20, 0.8);
+  animation: bgDarken 2s;
 
 }
 
